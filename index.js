@@ -3,6 +3,32 @@ const ethers = require('ethers');
 // Mainnet Addresses
 const DAI_EXCHANGE = '0x09cabec1ead1c0ba254b09efb3ee13841712be14'
 const FACTORY = '0xc0a47dFe034B400B47bDaD5FecDa2621de6c4d95'
+//const FACTORY = '0xA7f00de671ebEB1b04C19a00842ff1d980847f0B'
+
+// export const FACTORY2 = FACTORY;
+
+//const DAI_EXCHANGE = '0x6b175474e89094c44da98b954eedeac495271d0f'
+//const FACTORY = '0xb5b06a16621616875A6C2637948bF98eA57c58fa'
+
+/**
+ * ContractCreator: UNI v2
+ * 0xb5b06a16621616875A6C2637948bF98eA57c58fa
+ * 
+ */
+
+
+/**
+ * 0x09cabec1ead1c0ba254b09efb3ee13841712be14
+ * Contract 
+ * TokenTracker:
+ Uniswap V1 (UNI-V1)
+ * 
+ * 0x6b175474e89094c44da98b954eedeac495271d0f
+ * Contract 
+ * UNI v2
+ * TokenTracker:
+ Dai Stablecoin (DAI) (@$1.0100)
+ */
 
 // ABIs
 let EXCHANGE_ABI = require('./exchangeABI.json')
